@@ -16,3 +16,6 @@ In this project I used 2 different Gesture Recognizers:
 - Develop a fully functioning quiz app. 
 
 ## How does this app work?
+
+https://user-images.githubusercontent.com/7715561/212907280-d9ebf9f6-96c5-47bc-ac87-f0e5f4358c6a.mp4
+
