@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDEA675329768463001AF98A /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDEA675229768463001AF98A /* CustomView.xib */; };
+		BDEA675529768643001AF98A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEA675429768643001AF98A /* ContentView.swift */; };
+		BDEA675729769D08001AF98A /* PlayAgainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDEA675629769D08001AF98A /* PlayAgainView.xib */; };
+		BDEA675929769E59001AF98A /* PlayAgainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEA675829769E59001AF98A /* PlayAgainView.swift */; };
 		BDFEA0162974742300071C5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFEA0152974742300071C5E /* AppDelegate.swift */; };
 		BDFEA0182974742300071C5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFEA0172974742300071C5E /* SceneDelegate.swift */; };
 		BDFEA01A2974742300071C5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFEA0192974742300071C5E /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BDEA675229768463001AF98A /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		BDEA675429768643001AF98A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BDEA675629769D08001AF98A /* PlayAgainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayAgainView.xib; sourceTree = "<group>"; };
+		BDEA675829769E59001AF98A /* PlayAgainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAgainView.swift; sourceTree = "<group>"; };
 		BDFEA0122974742300071C5E /* AnimalsGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalsGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDFEA0152974742300071C5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDFEA0172974742300071C5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +71,10 @@
 				BDFEA01E2974742400071C5E /* Assets.xcassets */,
 				BDFEA0202974742400071C5E /* LaunchScreen.storyboard */,
 				BDFEA0232974742400071C5E /* Info.plist */,
+				BDEA675229768463001AF98A /* CustomView.xib */,
+				BDEA675429768643001AF98A /* ContentView.swift */,
+				BDEA675629769D08001AF98A /* PlayAgainView.xib */,
+				BDEA675829769E59001AF98A /* PlayAgainView.swift */,
 			);
 			path = AnimalsGallery;
 			sourceTree = "<group>";
@@ -126,7 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDFEA0222974742400071C5E /* LaunchScreen.storyboard in Resources */,
+				BDEA675329768463001AF98A /* CustomView.xib in Resources */,
 				BDFEA01F2974742400071C5E /* Assets.xcassets in Resources */,
+				BDEA675729769D08001AF98A /* PlayAgainView.xib in Resources */,
 				BDFEA01D2974742300071C5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDFEA01A2974742300071C5E /* ViewController.swift in Sources */,
+				BDEA675529768643001AF98A /* ContentView.swift in Sources */,
+				BDEA675929769E59001AF98A /* PlayAgainView.swift in Sources */,
 				BDFEA0162974742300071C5E /* AppDelegate.swift in Sources */,
 				BDFEA0182974742300071C5E /* SceneDelegate.swift in Sources */,
 			);
