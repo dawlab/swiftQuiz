@@ -9,7 +9,6 @@ import UIKit
 
 class CustomView: UIView {
     
-    
     @IBOutlet var ContentView: UIView!
     @IBOutlet weak var mainLabel: UILabel!
     @IBOutlet weak var answerLabel: UILabel!

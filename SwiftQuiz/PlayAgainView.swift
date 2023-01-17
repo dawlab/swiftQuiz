@@ -9,7 +9,6 @@ import UIKit
 
 class PlayAgainView: UIView {
 
-
     @IBOutlet var playAgainView: UIView!
     @IBOutlet weak var reloadImageView: UIImageView!
     @IBOutlet weak var knownSummary: UILabel!
