@@ -24,7 +24,7 @@
 		BDEA675429768643001AF98A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDEA675629769D08001AF98A /* PlayAgainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayAgainView.xib; sourceTree = "<group>"; };
 		BDEA675829769E59001AF98A /* PlayAgainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAgainView.swift; sourceTree = "<group>"; };
-		BDFEA0122974742300071C5E /* AnimalsGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalsGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFEA0122974742300071C5E /* SwiftQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDFEA0152974742300071C5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDFEA0172974742300071C5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BDFEA0192974742300071C5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		BDFEA0092974742200071C5E = {
 			isa = PBXGroup;
 			children = (
-				BDFEA0142974742300071C5E /* AnimalsGallery */,
+				BDFEA0142974742300071C5E /* SwiftQuiz */,
 				BDFEA0132974742300071C5E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +56,12 @@
 		BDFEA0132974742300071C5E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BDFEA0122974742300071C5E /* AnimalsGallery.app */,
+				BDFEA0122974742300071C5E /* SwiftQuiz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BDFEA0142974742300071C5E /* AnimalsGallery */ = {
+		BDFEA0142974742300071C5E /* SwiftQuiz */ = {
 			isa = PBXGroup;
 			children = (
 				BDFEA0152974742300071C5E /* AppDelegate.swift */,
@@ -76,15 +76,15 @@
 				BDEA675629769D08001AF98A /* PlayAgainView.xib */,
 				BDEA675829769E59001AF98A /* PlayAgainView.swift */,
 			);
-			path = AnimalsGallery;
+			path = SwiftQuiz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BDFEA0112974742300071C5E /* AnimalsGallery */ = {
+		BDFEA0112974742300071C5E /* SwiftQuiz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BDFEA0262974742400071C5E /* Build configuration list for PBXNativeTarget "AnimalsGallery" */;
+			buildConfigurationList = BDFEA0262974742400071C5E /* Build configuration list for PBXNativeTarget "SwiftQuiz" */;
 			buildPhases = (
 				BDFEA00E2974742300071C5E /* Sources */,
 				BDFEA00F2974742300071C5E /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = AnimalsGallery;
+			name = SwiftQuiz;
 			productName = AnimalsGallery;
-			productReference = BDFEA0122974742300071C5E /* AnimalsGallery.app */;
+			productReference = BDFEA0122974742300071C5E /* SwiftQuiz.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BDFEA00D2974742300071C5E /* Build configuration list for PBXProject "AnimalsGallery" */;
+			buildConfigurationList = BDFEA00D2974742300071C5E /* Build configuration list for PBXProject "SwiftQuiz" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BDFEA0112974742300071C5E /* AnimalsGallery */,
+				BDFEA0112974742300071C5E /* SwiftQuiz */,
 			);
 		};
 /* End PBXProject section */
@@ -305,7 +305,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 729RS4Z3AS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AnimalsGallery/Info.plist;
+				INFOPLIST_FILE = SwiftQuiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -316,7 +316,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.dawlab.AnimalsGallery;
+				PRODUCT_BUNDLE_IDENTIFIER = io.dawlab.SwiftQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -333,7 +333,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 729RS4Z3AS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AnimalsGallery/Info.plist;
+				INFOPLIST_FILE = SwiftQuiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -344,7 +344,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.dawlab.AnimalsGallery;
+				PRODUCT_BUNDLE_IDENTIFIER = io.dawlab.SwiftQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -355,7 +355,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BDFEA00D2974742300071C5E /* Build configuration list for PBXProject "AnimalsGallery" */ = {
+		BDFEA00D2974742300071C5E /* Build configuration list for PBXProject "SwiftQuiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDFEA0242974742400071C5E /* Debug */,
@@ -364,7 +364,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BDFEA0262974742400071C5E /* Build configuration list for PBXNativeTarget "AnimalsGallery" */ = {
+		BDFEA0262974742400071C5E /* Build configuration list for PBXNativeTarget "SwiftQuiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDFEA0272974742400071C5E /* Debug */,

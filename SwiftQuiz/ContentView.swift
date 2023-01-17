@@ -12,7 +12,7 @@ class CustomView: UIView {
     
     @IBOutlet var ContentView: UIView!
     @IBOutlet weak var mainLabel: UILabel!
-    
+    @IBOutlet weak var answerLabel: UILabel!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
